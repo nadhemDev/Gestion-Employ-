@@ -6,7 +6,7 @@ use Illuminate\Support\Facades\Schema;
 
 class CreateEmployesTable extends Migration
 {
-    /** 
+    /**
      * Run the migrations.
      *
      * @return void
@@ -20,7 +20,7 @@ class CreateEmployesTable extends Migration
             $table->string('depart');
             $table->date('hired_date');
             $table->integer('phone');
-            $table->string('adresse');
+            $table->string('address');
             $table->string('city');
             $table->timestamps();
         });
